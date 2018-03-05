@@ -17,7 +17,8 @@ namespace SuggestionBox.Controllers
         // GET: SuggestionModels
         public ActionResult Index()
         {
-            return View(db.SuggestionModels.ToList());
+            return View(db.SuggestionModels.ToList());//returning a view....goes into database and finds the suggestionmodels and 
+            //creates a list from that to create the view
         }
 
         // GET: SuggestionModels/Details/5
